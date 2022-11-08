@@ -9,6 +9,10 @@ h3{
     font-family: 'Courier New', Courier, monospace;
 }
 
+h1,h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .sean_sketches,.kelly_sketches,.rachel_sketches, .thomas_sketches,
  .students, .tutors, .parents, .videos{
     display: flex;

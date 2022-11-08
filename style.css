@@ -11,7 +11,7 @@ h3{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.sean_sketches{
+.sean_sketches,.kelly_sketches,.rachel_sketches, .thomas_sketches{
     display: flex;
 }
 .col{
@@ -21,6 +21,6 @@ h3{
 }
 
 .sketch-gallery{
-    max-width: 10vw;
+    max-width: 30vw;
     padding: 12px;
 }

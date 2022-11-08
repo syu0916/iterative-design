@@ -3,10 +3,8 @@
     background-color: #BFD8BF;
 }
 
-h1{
-    font-family: 'Courier New', Courier, monospace;
-}
-h3,h2{
+
+h3{
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -28,7 +26,8 @@ h3,h2{
 }
 
 .image-gallery{
-    max-width: 30vw;
+    width: 35rem;
+    
     padding: 12px;
 }
 

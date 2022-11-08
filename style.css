@@ -6,12 +6,13 @@
 h1{
     font-family: 'Courier New', Courier, monospace;
 }
-h3{
+h3,h2{
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.sean_sketches,.kelly_sketches,.rachel_sketches, .thomas_sketches{
+.sean_sketches,.kelly_sketches,.rachel_sketches, .thomas_sketches,
+ .students, .tutors, .parents, .videos{
     display: flex;
 }
 .col{
@@ -20,7 +21,18 @@ h3{
     justify-content: space-evenly;
 }
 
-.sketch-gallery{
+.colHalf{
+    flex: 50%;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.image-gallery{
     max-width: 30vw;
     padding: 12px;
+}
+
+.caption{
+    font-style: italic;
+    padding: 0 12px 20px 12px;
 }

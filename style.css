@@ -1,3 +1,74 @@
+section {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.header {
+    padding-bottom: 5vh;
+}
+div {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+#overview-sec{
+    background-color: rgb(140, 176, 149);
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+#low-fi-sec {
+    background-color: rgb(78, 100, 83);
+    color: white;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+#hifi-sec {
+    border-style: dotted;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    border-color: black;
+    border-width: 4px;
+}
+
+#user-sec{
+    background-color: rgb(130, 167, 130);
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    color: black;
+}
+#view-video-sec{
+    padding-top: 8vh;
+}
+#conclusion-sec{
+    
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+    color: black;
+}
+.card-body{
+    width: 100%;
+}
+
+#to-view {
+    padding-top: 3vh;
+}
+
+#user-header {
+    padding-bottom: 3vh;
+}
+#sketches-sec{
+    background-color: #4a634a(149, 150, 145, 0.881) !important;
+    color: rgb(35, 95, 47);
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    border-style: solid;
+    border-color:rgb(35, 95, 47) !important;
+    border-width: 4px !important;
+}
+
+
 #submission{
     padding: 20px;
     background-color: #BFD8BF;
@@ -21,6 +92,10 @@ h1,h2{
     flex:33.33%;
     padding: 5px;
     justify-content: space-evenly;
+}
+
+#crit {
+    width: 80vw;
 }
 
 .colHalf{

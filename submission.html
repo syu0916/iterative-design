@@ -10,11 +10,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" 
+        
         rel="stylesheet">    
     </head>
 
     <body>
-        <div class = "header" style = "width: 100vw; display: flex; flex-flow: column; align-items: center; background-color: #BFD8BF;">
+        <div class = "header" style = " display: flex; flex-flow: column; align-items: center; background-color: #BFD8BF;">
             <img src = "Animated-GIF-Export.gif" alt = "cute koala gif" id= "koala"
             style = "width: 50vh; height: auto; object-fit:contain;background-color: #BFD8BF;">
             <h1 style="font-size: 6vw"><strong>ITERATIVE DESIGN</strong></h1>
@@ -54,150 +55,272 @@
                 <div class = "sketches">
                     <h1><u>Sketches</u> </h1>
                     <p>Here are our initial sketches based on our indivdiual understandings of the description.</p>
-
-                    <div class="card">
-                        <h5 class="card-header" Style = "text-align: center;">Sketch Set 1</h5>
-                        <div class="card-body" Style = "display: flex; flex-flow: row; flex-wrap: wrap; justify-content: space-around;">
-                            <img class="image-gallery" src="sketches-gallery/sean1.png" alt="sketch of Koala interface frames">
-                            <img class="image-gallery" src="sketches-gallery/sean2.png" alt="sketch of Koala interface frames">
-                            <img class="image-gallery" src="sketches-gallery/sean3.png"alt="sketch of Koala interface frames">
-                        </div>
-                    </div>
-
-                    <br><br>
-                    <div class="card">
-                        <h5 class="card-header" Style = "text-align: center;">Sketch Set 2</h5>
-                        <div class="card-body" Style = "display: flex; flex-flow: row; flex-wrap: wrap; justify-content: space-around;">
-                            <img class="image-gallery" src="sketches-gallery/kelly1.png"alt="sketch of Koala interface frames">
-                            <img class="image-gallery" src="sketches-gallery/kelly2.png"alt="sketch of Koala interface frames">
-                            <img class="image-gallery" src="sketches-gallery/kelly3.png"alt="sketch of Koala interface frames">
-                        </div>
-                    </div>
-
-                    <br><br>
-                    <div class="card">
-                        <h5 class="card-header" Style = "text-align: center;">Sketch Set 3</h5>
-                        <div class="card-body" Style = "display: flex; flex-flow: row; flex-wrap: wrap; justify-content: space-around;">
-                            <img class="image-gallery" src="sketches-gallery/rachel1.png"alt="sketch of Koala interface frames">
-                            <img class="image-gallery" src="sketches-gallery/rachel2.png"alt="sketch of Koala interface frames">
-                            <img class="image-gallery" src="sketches-gallery/rachel3.png"alt="sketch of Koala interface frames">
-                        </div>
-                    </div>
                     
-                    <br><br>
-                    <div class="card">
-                        <h5 class="card-header" Style="text-align:center;">Sketch Set 4</h5>
-                        <div class="card-body" Style = "display: flex; flex-flow: row; flex-wrap: wrap; justify-content: space-around;">
-                            <img class="image-gallery" src="sketches-gallery/thomas1.jpeg"alt="sketch of Koala interface frames">
-                            <img class="image-gallery" src="sketches-gallery/thomas2.jpeg"alt="sketch of Koala interface frames">
-                            <img class="image-gallery" src="sketches-gallery/thomas3.jpeg"alt="sketch of Koala interface frames">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <h2>Sketch Set 1</h2>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" Style = "display: flex; flex-flow: row; flex-wrap: wrap; justify-content: space-around;">
+                                
+                                    <div class = "entry" style = "width: 25rem">
+                                        <img class="image-gallery" src="sketches-gallery/sean1.png" alt="sketch of Koala interface frames" style = "width: 100%">
+                                        <figcaption class="caption">Log-in, Instructor log-in, Landing Page</figcaption>
+                                    </div>
+                                    
+                                    <div class = "entry" style = "width: 25rem">
+                                        <img class="image-gallery" src="sketches-gallery/sean2.png" alt="sketch of Koala interface frames" style = "width: 100%">
+                                        <figcaption class="caption">Games, Check-out, Forgot Password</figcaption>
+                                    </div>
+                                    
+                                    <div class = "entry" style = "width: 25rem">
+                                        <img class="image-gallery" src="sketches-gallery/sean3.png"alt="sketch of Koala interface frames" style = "width: 100%">
+                                        <figcaption class="caption">Game Interface, Meeting Settings, Student page</figcaption>
+                                    </div>
+                                                          
+                             </div>
+                          </div>
                         </div>
-                        <!-- <div class="col">
-                            <img class="image-gallery" src="sketches-gallery/thomas1.jpeg"alt="sketch of Koala interface frames">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h2>Sketch Set 2</h2>
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" Style = "display: flex; flex-flow: row; flex-wrap: wrap; justify-content: space-around;">
+                                <div class = "entry" style = "width: 25rem">
+                                    <img class="image-gallery" src="sketches-gallery/kelly1.png"alt="sketch of Koala interface frames" style = "width: 100%">
+                                    <figcaption class="caption">Game Interface</figcaption>
+                                </div>
+                                <div class = "entry" style = "width: 25rem">
+                                    <img class="image-gallery" src="sketches-gallery/kelly2.png"alt="sketch of Koala interface frames" style = "width: 100%">
+                                    <figcaption class="caption">Landing Page</figcaption>
+                                </div>
+                                <div class = "entry" style = "width: 25rem">
+                                    <img class="image-gallery" src="sketches-gallery/kelly3.png"alt="sketch of Koala interface frames" style = "width: 100%">
+                                    <figcaption class="caption">Marketplace</figcaption>
+                                </div>
+                            </div>
+                          </div>
                         </div>
 
-                        <div class="col">
-                            <img class="image-gallery" src="sketches-gallery/thomas2.jpeg"alt="sketch of Koala interface frames">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              <h2>Sketch Set 3</h2>
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" Style = "display: flex; flex-flow: row; flex-wrap: wrap; justify-content: space-around;">
+                                
+                                <div class = "entry" style = "width: 25rem">
+                                    <img class="image-gallery" src="sketches-gallery/rachel1.png"alt="sketch of Koala interface frames" style = "width: 100%">
+                                    <figcaption class="caption">Opening Page</figcaption>
+                                </div>
+                                <div class = "entry" style = "width: 25rem">
+                                    <img class="image-gallery" src="sketches-gallery/rachel2.png"alt="sketch of Koala interface frames" style = "width: 100%">
+                                    <figcaption class="caption">Tutor Landing Page</figcaption>
+                                </div>
+                                <div class = "entry" style = "width: 25rem">
+                                    <img class="image-gallery" src="sketches-gallery/rachel3.png"alt="sketch of Koala interface frames" style = "width: 100%">
+                                    <figcaption class="caption">Profile Page</figcaption>
+                                </div>
+                            </div>                    
+                          </div>
                         </div>
 
-                        <div class="col">
-                            <img class="image-gallery" src="sketches-gallery/thomas3.jpeg"alt="sketch of Koala interface frames">
-                        </div> -->
-                    </div>
-                </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <h2>Sketch Set 4</h2>
+                              </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                              <div class="accordion-body" Style = "display: flex; flex-flow: row; flex-wrap: wrap; justify-content: space-around;">
+                                  <div class = "entry" style = "width: 25rem">
+                                      <img class="image-gallery" src="sketches-gallery/thomas1.jpeg"alt="sketch of Koala interface frames" style = "width: 100%">
+                                      <figcaption class="caption">Game Interface</figcaption>
+                                  </div>
+                                  <div class = "entry" style = "width: 25rem">
+                                      <img class="image-gallery" src="sketches-gallery/thomas2.jpeg"alt="sketch of Koala interface frames" style = "width: 100%">
+                                      <figcaption class="caption">Tutor Profile</figcaption>
+                                  </div>
+                                  <div class = "entry" style = "width: 25rem">
+                                      <img class="image-gallery" src="sketches-gallery/thomas3.jpeg"alt="sketch of Koala interface frames" style = "width: 100%">
+                                      <figcaption class="caption">Student Interface</figcaption>
+                                  </div>
+                              </div>                    
+                            </div>
+                          </div>
+                      </div>
+
             </section>
                 
             <section id="low-fi-sec">
                 <div class="low-fi">
                     <h1><u>Low-Fidelity</u></h1>
                     <p>
-                        After consideration and deliberation, we were able to cohesively synthesize
+                        After some thought, we were able to cohesively synthesize
                         our 12 sketches into a low-fidelity replica that would represent three interfaces
                         for the three types of users: students, tutors, and parents.
                     </p>
                     <p>
-                        We came to the conclusion that for each interface, there were some key components:
+                        Based on the user type, the interface would need to have different components:
                     </p>
                     <p></p>
-                    <h2><i>Students</i></h2>
-                    <li>Dashboard: to view their upcoming sessions.</li>
-                    <li>Session: where they will be engaging with the tutor in the interactive educational game.</li>
-                    
-                    <p></p>
-                    <h2><i>Parents</i></h2>
-                    <li>Dashboard: to view their child's progress and to see their schedule.</li>
-                    <li>Searching for Tutors: to sign their child up for more or different tutors.</li>
-                    <li>Billing and Subscriptions: to view their subscription plan and pay any outstanding bills.</li>
-
-                    <p></p>
-                    <h2><i>Tutors</i></h2>
-                    <li>Dashboard: to view their schedule and launch any upcoming meetings.</li>
-                    <li>Session: where they will be engaging with the student in the interactive educational game.</li>
-                    <li>Schedule: garnering inspiration from Google Calendar, we wanted a layout that would mimic that mental
-                        model of a calendar for their schedule.
-                    </li>
-                    
-
-                    <center><div class="students">
-                        <div class="colHalf">
-                            <img class="image-gallery" src="low-fi-gallery/students-login.png"alt="low-fidenlity shared login screen">
-                            <figcaption class="caption">Shared Login Screen</figcaption>
+                    <div class="accordion" id="accordionExample" >
+                
+                        <div class="accordion-item"  >
+                          <h2 class="accordion-header" id="headingOne">
+                            <button   class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <h2>All Users:</h2>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div><li>Log-in: a universal portal through which all users can enter the application</li></div>
+                                <br>
+                                <div Style = "display: flex; flex-direction: row; justify-content: space-around;flex-wrap: wrap; ">
+                                    <div class = "entry">
+                                        <img class="low-fi-gal" src="low-fi-gallery/students-login.png"alt="low-fidenlity shared login screen">
+                                        <figcaption class="caption">Shared Login Screen</figcaption>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
                         </div>
+                        
+                        <div class="accordion-item"  >
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button   class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <h2>Students</h2>
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" Style = "display: flex; flex-direction: column; align-content: space-between;">
+                                <div>
+                                    <li>Dashboard: to view their upcoming sessions.</li>
+                                    <li>Session: where they will be engaging with the tutor in the interactive educational game.</li>
+                                </div>
+                                
+                                <br>
+                                <div Style = "display: flex; flex-direction: row; justify-content: space-around;flex-wrap: wrap; ">
+                                    <div class = "entry">
+                                        <img class="low-fi-gal" src="low-fi-gallery/student-pov.png" alt="low-fidelity student dashboard">
+                                        <figcaption class="caption">Student Dashboard</figcaption>
+                                    </div>
+                                    <div class = "entry">
+                                        <img class="low-fi-gal" src="low-fi-gallery/tutor-student-pov.png" alt="low-fidelity student and teacher session screen">
+                                        <figcaption class="caption">Shared Student and Tutor Session Screen</figcaption>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                            >
+                              <h2>Parents</h2>
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body"  Style = "display: flex; flex-direction: column; align-content: space-between;">
+                                <div>
+                                    <li>Dashboard: to view their child's progress and to see their schedule.</li>
+                                    <li>Searching for Tutors: to sign their child up for more or different tutors.</li>
+                                    <li>Billing and Subscriptions: to view their subscription plan and pay any outstanding bills.</li>
+                                </div>
+                                <br>
+                                <div Style = "display: flex; flex-direction: row; justify-content: space-around;flex-wrap: wrap; ">
+                                    <div class = "entry">
+                                        <img class= "low-fi-gal" src="low-fi-gallery/parent-dashboard.png"alt="low-fidelity parent dashboard">
+                                        <figcaption class="caption">Parent Dashboard</figcaption>
+                                    </div>
+                                    <div class = "entry">
+                                        <img class="low-fi-gal" src="low-fi-gallery/parent-search-tutors.png"alt="low-fidelity search for tutor frame">
+                                        <figcaption class="caption">Searching for a Tutor</figcaption>
+                                    </div>
+                                    <div class = "entry">
+                                        <img class="low-fi-gal" src="low-fi-gallery/parent-billing.png" alt="low-fidelity parents billing and subscription screen">
+                                        <figcaption class="caption">Billing and Subscription</figcaption>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item"  >
+                            <h2 class="accordion-header" id="headingFour">
+                              <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <h2>Tutors</h2>
+                              </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                              <div class="accordion-body" Style = "display: flex; flex-direction: column; align-content: space-between;">
+                                <div>
+                                    <li>Dashboard: to view their schedule and launch any upcoming meetings.</li>
+                                    <li>Session: where they will be engaging with the student in the interactive educational game.</li>
+                                    <li>Games: where tutors can purchase games or subscriptions to use while engaging with their students</li>
+                                    <li>Students: where tutors can view and manage their students.</li>
+                                    <li>Schedule: garnering inspiration from Google Calendar, we wanted a layout that would mimic that mental
+                                        model of a calendar for their schedule.</li>
+                                </div>
+                                <br>
+                                <div Style = "display: flex; flex-direction: row; justify-content: space-around;flex-wrap: wrap; ">
+                                    <div class = "entry"> 
+                                        <img class="low-fi-gal" src="low-fi-gallery/tutor-dashboard.jpeg"alt="low-fidelity tutor dashboard">
+                                        <figcaption class="caption">Tutor Dashboard</figcaption>
+                                    </div>
+                                    <div class = "entry">
+                                        <img class="low-fi-gal" src="low-fi-gallery/tutor-student-pov.png" alt="low-fidelity student and teacher session screen">
+                                        <figcaption class="caption">Shared Student and Tutor Session Screen</figcaption>
+                                    </div>
+                                    <div class = "entry">
+                                        <img class="low-fi-gal" src="low-fi-gallery/tutor-games.png"alt="low-fidelity game purchasing screen">
+                                        <figcaption class="caption">Game Store</figcaption>
+                                    </div>
+                                    <div class = "entry">
+                                        <img class="low-fi-gal" src="low-fi-gallery/tutor-students.png" alt="low-fidelity student organization">
+                                        <figcaption class="caption">Student Management Screen</figcaption>
+                                    </div>
+                                    <div class = "entry">
+                                        <img class="low-fi-gal" src="low-fi-gallery/tutor-schedule.png"alt="low-fi tutor schedule screen">
+                                        <figcaption class="caption">Scheduling screen</figcaption>
+                                    </div>
+                                    
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        
         
-                        <div class="colHalf">
-                            <img class="image-gallery" src="low-fi-gallery/student-pov.png" alt="low-fidelity student dashboard">
-                            <figcaption class="caption">Student Dashboard</figcaption>
-                        </div>
-                    </div></center>
-
-                    <center><div class="tutors">
-                        <div class="colHalf">
-                            <img class="image-gallery" src="low-fi-gallery/tutor-dashboard.jpeg"alt="low-fidelity tutor dashboard">
-                            <figcaption class="caption">Tutor Dashboard</figcaption>
-                        </div>
-
-                        <div class="colHalf">
-                            <img class="image-gallery" src="low-fi-gallery/tutor-student-pov.png" alt="low-fidelity student and teacher session screen">
-                            <figcaption class="caption">Shared Student and Tutor Session Screen</figcaption>
-                        </div>
-                    </div></center>
-
-                    <center><div class="parents">
-                        <div class="col">
-                            <img class="image-gallery" src="low-fi-gallery/parent-dashboard.png"alt="low-fidelity parent dashboard">
-                            <figcaption class="caption">Parent Dashboard</figcaption>
-                        </div>
-
-                        <div class="col">
-                            <img class="image-gallery" src="low-fi-gallery/parent-search-tutors.png"alt="low-fidelity search for tutor frame">
-                            <figcaption class="caption">Searching for a Tutor</figcaption>
-                        </div>
-                    </div></center>
-
-                    <center><div class="parents">
-                        <div class="colHalf">
-                            <img class="image-gallery" src="low-fi-gallery/parent-billing.png" alt="low-fidelity parents billing and subscription screen">
-                            <figcaption class="caption">Billing and Subscription</figcaption>
-                        </div>
-                    </div></center>
-                </div>
+        
+                      </div>
+                    
             </section>
 
         <section id="hifi-sec">
-            <br><br>
-            <div style = "display: flex; justify-content: center;">
-                <div class="alert alert-light" role="alert" style = "width: 60vw;" >
-                    <h1 class="alert-heading">High-Fidelity Mockup</h1>
-                    <strong>
-                        Taking our low-fidelity mockups, we translated our ideas into a Figma prototype
-                        interface and presented it to peers and industry members to gauge feedback. 
-                        Here are the following feedback points we implemented into our improved prototype: 
-                    </strong>
-                </div>
-            </div>
+            <div>
+                <h1><u>High-Fidelity</u></h1>
+                <p>
+                    Taking our low-fidelity mockups, we translated our ideas into a Figma prototype
+                    interface and presented it to peers and industry members to gauge feedback. 
+                    Here are the following feedback points we implemented into our improved prototype: 
+                </p>
+            <br>
+        </div>
             
-            <div Style = "display: flex; justify-content: center; flex-wrap: wrap;" id="" >
-                <ul class="list-group" Style = "width: 19rem; padding: 10px">
+            
+            
+            <div style = "display: flex; justify-content: center; flex-wrap: wrap; width: 100vw"  >
+                <ul class="list-group" Style = "width: 20rem; padding: 10px">
                     <li class="list-group-item"><h2>Crit Feedback</h2></li>
                     <li class="list-group-item">Improve consistency of homepage navigation across users</li>
                     <li class="list-group-item">Reduce information on pages for clarity and readability</li>
@@ -206,16 +329,16 @@
                     <li class="list-group-item">Include a search bar for the 'search tutor' page</li>
                     <li class="list-group-item">Reduce repetitive text</li>
                   </ul>
-                <p align = "center">
-                    <iframe Style = "display: block; justify-self: center;  width: 50rem; height: 75vh"   src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpsqMbI5HL6GUIdjiHnOaW5%2FKoala-Hi-Fi%3Fpage-id%3D0%253A1%26node-id%3D205%253A192%26viewport%3D352%252C128%252C0.07%26scaling%3Dscale-down%26starting-point-node-id%3D205%253A192" allowfullscreen></iframe>
-                </p>
+
+                    <iframe Style = "display: block; justify-self: center;  width: 60rem; height: 75vh"   src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpsqMbI5HL6GUIdjiHnOaW5%2FKoala-Hi-Fi%3Fpage-id%3D0%253A1%26node-id%3D205%253A192%26viewport%3D352%252C128%252C0.07%26scaling%3Dscale-down%26starting-point-node-id%3D205%253A192" allowfullscreen></iframe>
+
             </div>
             
         </section>
         
-        <section id="user-sec">
-            <div class="user_testing" style = "width: 90vw; display: flex; flex-direction: column;">
-                <h1 id="user-header"><u>User Testing and Analysis</u></h1>
+        <section id="user-sec" style = "background-color: rgb(78, 100, 83)">
+            <div class="user_testing" style = "width: 90vw; display: flex; flex-direction: column; ">
+                <h1 id="user-header" style = "color: white"><u>User Testing and Analysis</u></h1>
                 <div class="card-group" style = "align-self: center;" >
                     <div class="card">
                         <h5 class="card-header">Types of Errors</h5>
@@ -259,25 +382,25 @@
                     </div>
                 </div>
                 <p></p>
-                <h3 style="padding-top: 3vh">Subtasks</h3>
+                <h3 style="padding-top: 3vh;color: white" >Subtasks</h3>
                 <div>
-                    <li>Log in as a tutor and take in the dashboard while making comments on where they would click first.
+                    <li style = "color: white">Log in as a tutor and take in the dashboard while making comments on where they would click first.
                     </li>
-                    <li>Make a note of the students listed under “Upcoming Sessions.”
+                    <li style = "color: white">Make a note of the students listed under “Upcoming Sessions.”
                     </li>
-                    <li>Launch a meeting and check that the student is in the meeting.
+                    <li style = "color: white">Launch a meeting and check that the student is in the meeting.
                     </li>
-                    <li>Check schedule.
+                    <li style = "color: white">Check schedule.
                     </li>
-                    <li>Purchase a game in preparation for another upcoming session.
+                    <li style = "color: white">Purchase a game in preparation for another upcoming session.
                     </li>
-                    <li>Confirm that the game was added to the lesson plans for one of the students.
+                    <li style = "color: white">Confirm that the game was added to the lesson plans for one of the students.
                     </li>
                 </div>
             </div>
 
             <div id="view-video-sec">
-                <center><b id="to-view">To view these UserTestings, click on the videos below!</b></center>
+                <center><b id="to-view" style = "color: white">To view these UserTestings, click on the videos below!</b></center>
                 <p></p>
                 <div class="videos">
                     <div class="col">
@@ -313,4 +436,5 @@
                 any demographic. </p>
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     </body>

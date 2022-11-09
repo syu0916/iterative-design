@@ -6,6 +6,18 @@ section {
 .header {
     padding-bottom: 5vh;
 }
+.entry{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.accordion-item{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.card{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
 div {
     padding-left: 4vw;
     padding-right: 4vw;
@@ -106,7 +118,7 @@ h1,h2{
 }
 
 .image-gallery{
-    width: 35rem;
+    width: 30rem;
     
     padding: 12px;
 }
@@ -114,4 +126,15 @@ h1,h2{
 .caption{
     font-style: italic;
     padding: 0 12px 20px 12px;
+}
+
+
+.accordion{
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.low-fi-gal {
+    width: 23rem;
+}
+.caption{
+    width: 15rem;
 }
